@@ -85,6 +85,24 @@ Není nutné dělat všechny kroky v přesném pořadí, nicméně Endstopy byst
 Jak ověřit funkčnost a správné zapojení endstopů? Nejjednodušší způsob je v Settings -> Endstops. Zde máte vypsané všechny endstopy a pomocí tlačítka obnovit můžete zjistit jejich aktuální stav. 
 - Přesuňte tiskovou hlavu doprostřed podložky (aby nebyly endstopy sepnuté) a klikněte na tlačítko obnovit. Měli byste u všech endstopů vidět stav `open`.
 - Pokud nemáte žádný endstop sepnutý a vidíte všude `open`, zkuste ručně endstop sepnout (a držet). Při tom klikněte na tlačítko obnovit. U sepnutého endstopu by se mělo objevit `triggered`. Takto je to v pořádku a pokračujte s kontrolou na další endstopy.
-- Pokud endstop sepnutý není, ale přesto vidíte `triggered` a po zmáčknutí endstopu vidíte `open`, je obrácená logika. Přejděte do `printer.cfg`, najděte daný endstop a buďto přidejte, nebo odeberte !. Například najde v configu tento zápis `endstop_pin: ^!ar3`. Pro obrácení logiky endstopu tedy upravíte na `endstop_pin: ^ar3`.
+- Pokud endstop sepnutý není, ale přesto vidíte `triggered` a po zmáčknutí endstopu vidíte `open`, je obrácená logika. Přejděte do `printer.cfg`, najděte daný endstop a buďto přidejte, nebo odeberte `!`. Například najde v configu tento zápis `endstop_pin: ^!ar3`. Pro obrácení logiky endstopu tedy upravíte na `endstop_pin: ^ar3`.
 - Pokud endstop nereaguje na sepnutí, může být špatně zapojený kabel (do jiného konektoru) nebo máte v `printer.cfg` špatně zadaný Pin.
 - Většina dnešních desek používá Pullup PIN (to se označuje '^' před názvem pinu), proto zkontrolujte, zdali máte stříšku před názvem pinu uvedenou.
+- pokud ani přesto endstop nereaguje, a všechny předchozí body máte správně, vyměňte spínač.
+
+## Nahřívání, termistory, větráky
+Tři odlišné věci, ale vzájemně propojené, takže je otestujeme naráz.
+V Mainsalu v dashboardu vidíte na pravé straně grafy teplot. Jsou tam zobrazeny jak teploty hotendu v čase, tak teploty podložky. Těch teplot tam můžete vidtě více (například teplota Raspberry, či teplota desky), ale pro fukčnost jsou klíčové teploty hotendu a desky.
+
+![Mainsail a nastavení teplot](/images/mainsail_temp_graph.png)
+
+Pokud by nefungovaly termistory, klipper by vyhodil chybu už dříve, takže v tomto kroku víte, že termistor je zapojený a ukazuje nějaké teploty. Měli byste tam vidět přibližně pokojové teploty.
+
+- Nyní nad grafem teplot do okýkna zadejte teplotu hotend 50 stupňů a zmáčkněte enter nebo klikněte někam bokem. 
+    - Na hotendu by se vám měl začít točit větrák pro ofuk hotendu
+    - Měla by vám začít stoupat teplota (sledujte ji v grafu nebo vedle nastavení teplot)
+    - Pokud se vám roztočil větrák pro ofuk tisku, místo větráku u hotendu, máte přehozené kabely. Zkontrolujte zapojení.
+    - U termistoru byste měli mít nastavený správný typ termistoru, jinak vám při vyšších teplotách může vznikat velká odchylka od reálných teplot
+
+- Stejný postup zopakujeme pro podložku. Zde není žádný ventilátor, takže sledujeme jen teploty
+- Pokud se nám teploty nemění, zkontrolujeme že máme vše správně zapojeno ve správných terminálech či konektorech na desce, a že máme správně v `printer.cfg` zadány správné piny.
