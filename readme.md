@@ -75,7 +75,7 @@ serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
 
 `printer.cfg` si nyní uložíme a zároveň restartujeme desku tlačítkem `Save and Restart`. Pokud jsme vše udělali správně, na hlavní stránce v Dashboardu bychom měli vidět teploty hotendu a desky v grafu.
 
-V dashboardu můžete vidět ještě oranžové upozornění ohledně chybějících věcí. Přejdeme opět do `printer.cfg` a hned na první řádek doplníme `[include mainsail.cfg]`. Uložíme a restartujeme. Nyní by už mělo být vše v pořádku a můžeme postoupit dále.
+V dashboardu můžete vidět ještě oranžové upozornění ohledně chybějících věcí. Přejdeme opět do `printer.cfg` a hned na první řádek doplníme `[include mainsail.cfg]`. Uložíme a restartujeme. Nyní by už mělo být vše v pořádku a můžeme postoupit dále.     
 
 # Startovní kontroly
 Veškerou kabeláž máme hotovou, máme flešnutou desku, nastavený `printer.cfg` a klipper nám komunikuje s deskou. Skvěle. Tak teď musíme postupně otestovat, že nám vše funguje a správně se hýbe.
@@ -157,4 +157,10 @@ Pro kalibraci vyhřívané podložky použijte příkaz:
 ```
 PID_CALIBRATE HEATER=heater_bed TARGET=60
 ```
-Teploty nastavujte podle materiálu, který budete tisknout nejvíce. Pokud tisknete nejvíce ABS, nastavte vyšší teploty v `TARGET`.
+Teploty nastavujte podle materiálu, který budete tisknout nejvíce. Pokud tisknete nejvíce ABS, nastavte vyšší teploty v `TARGET`. 
+
+Pozor, pokud máte například podložku pojmenovanou v configu jinak, do `HEATER` zadejte váš název!
+
+# Co dál?
+Nyní máme ověřené, že vše funguje jak má, světla svítí, stěračě stírají. Nyní je potřeba se pustit do vylevlování podložky. Opět každá tiskárna to má jinak. Já se pokusím ukázat postup u V0 a V2.4.
+Příště. :-D
