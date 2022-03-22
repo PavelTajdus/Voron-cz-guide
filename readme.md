@@ -78,3 +78,11 @@ serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
 V dashboardu můžete vidět ještě oranžové upozornění ohledně chybějících věcí. Přejdeme opět do `printer.cfg` a hned na první řádek doplníme `[include mainsail.cfg]`. Uložíme a restartujeme. Nyní by už mělo být vše v pořádku a můžeme postoupit dále.
 
 # Startovní kontroly
+Veškerou kabeláž máme hotovou, máme flešnutou desku, nastavený `printer.cfg` a klipper nám komunikuje s deskou. Skvěle. Tak teď musíme postupně otestovat, že nám vše funguje a správně se hýbe.
+
+## Endstopy
+Není nutné dělat všechny kroky v přesném pořadí, nicméně Endstopy byste měli testovat dříve než se pokusíte hýbat s motory. Z bezpečnostních důvodů.
+Jak ověřit funkčnost a správné zapojení endstopů? Nejjednodušší způsob je v Settings -> Endstops. Zde máte vypsané všechny endstopy a pomocí tlačítka obnovit můžete zjistit jejich aktuální stav. 
+- Přesuňte tiskovou hlavu doprostřed podložky (aby nebyly endstopy sepnuté) a klikněte na tlačítko obnovit. Měli byste u všech endstopů vidět stav `open`.
+- Pokud nemáte žádný endstop sepnutý a vidíte všude `open`, zkuste ručně endstop sepnout (a držet). Při tom klikněte na tlačítko obnovit. U sepnutého endstopu by se mělo objevit `triggered`. Takto je to v pořádku a pokračujte s kontrolou na další endstopy.
+- Pokud endstop sepnutý není, ale přesto vidíte `triggered` a po zmáčknutí endstopu vidíte `open`, je obrácená logika. Přejděte do `printer.cfg`, najděte daný endstop a buďto přidejte, nebo odeberte !. Například najde v configu tento zápis `endstop_pin: ^!ar3`. Pro obrácení logiky endstopu tedy upravíte na `endstop_pin: ^ar3`.
