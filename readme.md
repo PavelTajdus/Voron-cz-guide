@@ -86,3 +86,5 @@ Jak ověřit funkčnost a správné zapojení endstopů? Nejjednodušší způso
 - Přesuňte tiskovou hlavu doprostřed podložky (aby nebyly endstopy sepnuté) a klikněte na tlačítko obnovit. Měli byste u všech endstopů vidět stav `open`.
 - Pokud nemáte žádný endstop sepnutý a vidíte všude `open`, zkuste ručně endstop sepnout (a držet). Při tom klikněte na tlačítko obnovit. U sepnutého endstopu by se mělo objevit `triggered`. Takto je to v pořádku a pokračujte s kontrolou na další endstopy.
 - Pokud endstop sepnutý není, ale přesto vidíte `triggered` a po zmáčknutí endstopu vidíte `open`, je obrácená logika. Přejděte do `printer.cfg`, najděte daný endstop a buďto přidejte, nebo odeberte !. Například najde v configu tento zápis `endstop_pin: ^!ar3`. Pro obrácení logiky endstopu tedy upravíte na `endstop_pin: ^ar3`.
+- Pokud endstop nereaguje na sepnutí, může být špatně zapojený kabel (do jiného konektoru) nebo máte v `printer.cfg` špatně zadaný Pin.
+- Většina dnešních desek používá Pullup PIN (to se označuje '^' před názvem pinu), proto zkontrolujte, zdali máte stříšku před názvem pinu uvedenou.
