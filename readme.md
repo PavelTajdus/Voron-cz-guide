@@ -5,7 +5,7 @@ Není cílem vytvořit podrobný návod, ale jen základní postup s odkazy kde 
 Možností instalace je více. Já vybírám tu zřejmě nejjednodušší. Pomocí Raspberry Pi Imageru si vytvoříme SD kartu pro naše Raspberry Pi.
 
 ### Raspberry Pi Imager
-https://www.raspberrypi.com/software/
+<a href="https://www.raspberrypi.com/software/" target="_blank">https://www.raspberrypi.com/software/</a>
 
 Výhoda RPI Imageru je v tom, že si při vytváření SD karty nastavíte rovnou všechny potřebné údaje. Nemusíte nic dalšího stahovat, v Imageru si vyberete image, a ten se vám na pozadí stáhne. Přednastavíte si wifi, sítový název a další věci.
 
