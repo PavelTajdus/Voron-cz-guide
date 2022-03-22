@@ -144,3 +144,17 @@ U CoreXY je někdy náročné nastavit směr pohybu motorů. Voron má krásně 
 
 https://docs.vorondesign.com/build/startup/#motor-configuration-guides
 
+## PID kalibrace
+Před prvním tiskem silně doporučuji udělat PID kalibraci. Je to jednorázová akce na pár minut, a máte jistotu že se hotend i podložka budou chovat tak jak mají. PID kalibraci doporučuji udělat i pokud měníte hotend, dáváte jinou trysku, silikonovnou ponožku nebo třeba jiný termistor.
+
+Kalibrace je jednoduchá. Do konzole zadejte příkaz:
+```
+PID_CALIBRATE HEATER=extruder TARGET=210
+```
+*Tento příkaz říká, že chcete kalibrovat extruder při teplotě 210 stupňů.*
+
+Pro kalibraci vyhřívané podložky použijte příkaz:
+```
+PID_CALIBRATE HEATER=heater_bed TARGET=60
+```
+Teploty nastavujte podle materiálu, který budete tisknout nejvíce. Pokud tisknete nejvíce ABS, nastavte vyšší teploty v `TARGET`.
