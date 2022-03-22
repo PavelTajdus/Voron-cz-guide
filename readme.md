@@ -134,7 +134,8 @@ Takto otestujte všechny motory. A to včetně extruderu.
 ### První homování
 Pokud jsme zkontrolovali endstopy, a motory nám chodí tak jak chceme, můžeme zkusit první homování. Doporučuji začít nejdříve osou X, pak Y, a pak Z. Pokud máme Voron 2.4, musíme ještě nastavit v `printer.cfg` kde je umístět Z endstop. Takže na to pozor.
 
-    Před samotným homováním si připravte buďto prst na vypínač tiskárny, nebo v mainsailu v pravém horním rohu je tlačítko pro okamžité vypnutí tiskárny. Tlačítko v mainsailu funguje dobře, takže doporučuji používat to (a hlavně nemusíte pak čekat než naběhne Raspberry), ale přeci jen kdyby se něco posralo, buďte připraveni skočit po hlavním vypínači.
+    Před samotným homováním si připravte buďto prst na vypínač tiskárny, nebo v mainsailu v pravém horním rohu je tlačítko pro okamžité vypnutí tiskárny.
+    Tlačítko v mainsailu funguje dobře, takže doporučuji používat to (a hlavně nemusíte pak čekat než naběhne Raspberry), ale přeci jen kdyby se něco posralo, buďte připraveni skočit po hlavním vypínači.
 
 Při homování by měl jet motor směrem k endstopu. Pokud nejede, máme buď špatně nastavený směr otáčení motoru (`dir_pin`), nebo máme špatně specifikované umístění endstopu. Nicméně tyto věci jsou v připraveném confifigu pro danou desku nebo tiskárnu již většinou správně. Proto to nebudu tady rozepisovat.
 
