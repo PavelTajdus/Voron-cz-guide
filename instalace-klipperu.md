@@ -73,3 +73,6 @@ serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
 `printer.cfg` si nyní uložíme a zároveň restartujeme desku tlačítkem `Save and Restart`. Pokud jsme vše udělali správně, na hlavní stránce v Dashboardu bychom měli vidět teploty hotendu a desky v grafu.
 
 V dashboardu můžete vidět ještě oranžové upozornění ohledně chybějících věcí. Přejdeme opět do `printer.cfg` a hned na první řádek doplníme `[include mainsail.cfg]`. Uložíme a restartujeme. Nyní by už mělo být vše v pořádku a můžeme postoupit dále.
+
+## Co dále?
+[Startovní kontroly před spuštěním tiskárny](startovni-kontroly.md)
