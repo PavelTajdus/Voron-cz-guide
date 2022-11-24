@@ -12,6 +12,16 @@ Stručný, ale kompletní a snad i nejjednodušší možný způsob instalace kl
 Sestaveno a podrátováno? Je čas to všechno zkontrolovat.
 
 # Zdroje informací pro Voron tiskárny
+Protože jsou jednotlivé věci relativně dost rozházené, sepsal jsem pár základních linků, kde co stáhnout nebo kde co sehnat.
+
+## Image pro Raspberry PI
+Image ke stažení a instalaci přes [Raspberry Pi Imager](https://www.raspberrypi.com/software/), nebo [Balena Etcher](https://www.balena.io/etcher/) . 
+
+### MainsailOS
+https://github.com/mainsail-crew/MainsailOS/releases/
+
+###FluiddPI
+https://github.com/fluidd-core/FluiddPI/releases
 
 ## Voron 2.4
 Všechny informace na jednom místě (další linky jsou právě z tohoto repozitáře)
@@ -20,10 +30,10 @@ https://github.com/VoronDesign/Voron-2
 ### Manuál
 https://github.com/VoronDesign/Voron-2/blob/Voron2.4/Manual/Assembly_Manual_2.4r2.pdf
 
-### Firmware
+### Firmware - Config pro obvyklé desky
 https://github.com/VoronDesign/Voron-2/tree/Voron2.4/firmware/klipper_configurations
 
-### STL
+### STL soubory
 https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs
 
 ### Stažení všeho v ZIP souboru
@@ -31,3 +41,5 @@ https://github.com/VoronDesign/Voron-2/archive/refs/heads/Voron2.4.zip
 
 ### Dokumentace
 https://docs.vorondesign.com/
+
+
