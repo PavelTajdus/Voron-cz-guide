@@ -20,7 +20,7 @@ Image ke stažení a instalaci přes [Raspberry Pi Imager](https://www.raspberry
 ### MainsailOS
 https://github.com/mainsail-crew/MainsailOS/releases/
 
-###FluiddPI
+### FluiddPI
 https://github.com/fluidd-core/FluiddPI/releases
 
 ## Voron 2.4
