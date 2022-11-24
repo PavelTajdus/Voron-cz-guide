@@ -11,13 +11,13 @@ Stručný, ale kompletní a snad i nejjednodušší možný způsob instalace kl
 [Startovní kontroly po sestavení tiskárny](startovni-kontroly.md)   
 Sestaveno a podrátováno? Je čas to všechno zkontrolovat.
 
-## Zdroje informací pro Voron tiskárny
+# Zdroje informací pro Voron tiskárny
 
-### Voron 2.4
+## Voron 2.4
 Všechny informace na jednom místě (další linky jsou právě z tohoto repozitáře)
 https://github.com/VoronDesign/Voron-2
 
-#### Manuál
+### Manuál
 https://github.com/VoronDesign/Voron-2/blob/Voron2.4/Manual/Assembly_Manual_2.4r2.pdf
 
 ### Firmware
