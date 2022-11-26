@@ -42,4 +42,6 @@ https://github.com/VoronDesign/Voron-2/archive/refs/heads/Voron2.4.zip
 ### Dokumentace
 https://docs.vorondesign.com/
 
-
+### Voron Sourcing Guide
+Pokud potřebujete nějaký díl dokoupit, mrkněte do oficiálního Sourcing Guide. Je to v podstatě excelová tabulka se seznamem dílů, ale obsahuje i odkazy na doporučené dodavatele a aliexpress. V dolní části jsou záložky pro jednotlivé tiskárny či extrudery. České zdroje pak můžete najít [zde](sourcing-guide.md).  
+https://vorondesign.com/sourcing_guide
