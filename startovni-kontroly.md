@@ -81,3 +81,19 @@ PID_CALIBRATE HEATER=heater_bed TARGET=60
 Teploty nastavujte podle materiálu, který budete tisknout nejvíce. Pokud tisknete nejvíce ABS, nastavte vyšší teploty v `TARGET`. 
 
 Pozor, pokud máte například podložku pojmenovanou v configu jinak, do `HEATER` zadejte váš název!
+
+## Kalibrace Z endstopu u Voron 2.4 a Voron Trident
+Ačkoliv to vypadá jako kravina, pár mých zničených PEI podložek by mohlo vyprávět o opaku. Toto je velmi důležitá kalibrace, která zajistí že se vám nebude měnit výška Z. Pokud neprovedete tuto kalibraci (u tiskáren se Z endstopem), budete mít problémy s výškou Z.
+
+Rozhodněte se, jestli uděláte kalibraci za studena, či za tepla. Pokud za tepla, musíte se ujistit že máte očištěnou trysku od zbytku filamentu.
+
+Před samotnou kalibrací musíte mít tiskárnu zahoumovanou `G28` a vymažte původní hodnoty MESHe pomocí `BED_MESH_CLEAR` a proveďte vyrovnání podložky (QGL nebo Z TILT u Tridenta).
+
+Znovu proveďte `G28`
+
+Najeďte do bodu, kde bute měřit vzdálenost trysky od podložky
+
+Spusťte v konzoli příkaz `Z_ENDSTOP_CALIBRATE`. Jak Mainsail, tak Fluidd mají na kalibraci grafickou nádstavbu, takže následné úpravy vzdálenosti trysky od podložky jsou už jednoduché. Pomocí klasické papírové metody (papír pod tryskou musí jemně drhnout) a snižováním nevo zvyšováním výšky Z najděte správnou polohu. Následně klikněte na Accept a pomocí tlačítka SAVE CONFIG naměřené hodnoty uložte a restartujte klipper.
+
+Nezpomeňte si v congigu u `[bed_mesh]` nastavit `relative_reference_index`. Relative reference index nastavte co nejblíže k bodu, kde jste měřili Z offset.
+Více info jak nastavit relative reference index najdete v záznamu mého streamu: https://youtu.be/Vi1-iHbne04
