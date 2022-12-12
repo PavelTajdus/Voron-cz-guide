@@ -48,6 +48,10 @@ Soubor klipper.bin si přesuneme do složky (a rovnou přejmenujeme), do které 
 ```
 cp ~/klipper/out/klipper.bin ~/klipper_config/firmware.bin
 ```
+V případě že používáte nejnovější moonraker (zhruba od prosince 2022), použijte tento příkaz:
+```
+cp ~/klipper/out/klipper.bin ~/printer_data/config/firmware.bin
+```
 
 ## ID desky pro použití v printer.cfg
 Poslední věc, kterou budeme potřebovat je cesta k desce, pomocí které dokáže klipper s deskou komunikovat.
