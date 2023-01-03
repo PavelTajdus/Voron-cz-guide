@@ -44,7 +44,7 @@ Toto je vše, co je potřeba nastavit na straně Průša Sliceru. Nyní nás če
 
 # Makra
 
-Ve vaší tiskárně si otevřete soubor `printer.cfg` a někam k ostatním makrům si vložte tento kód (vysvětlivky k jednotlivým částem jsou v komentáři přimo v makrech:
+Ve vaší tiskárně si otevřete soubor `printer.cfg` a někam k ostatním makrům si vložte tento kód a uložte config (vysvětlivky k jednotlivým částem jsou v komentáři přimo v makrech):
 ```
 [gcode_macro PRINT_START]
 gcode:
