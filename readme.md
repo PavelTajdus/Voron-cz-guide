@@ -11,6 +11,9 @@ Stručný, ale kompletní a snad i nejjednodušší možný způsob instalace kl
 [Startovní kontroly po sestavení tiskárny](startovni-kontroly.md)   
 Sestaveno a podrátováno? Je čas to všechno zkontrolovat.
 
+[Startovní gcode](start_macro.md)  
+Co a kde doplnit, aby nám slicer kamarádil s naší tiskárnou.
+
 # Oficiální zdroje
 Protože jsou jednotlivé věci relativně dost rozházené, sepsal jsem pár základních linků, kde co stáhnout nebo kde co sehnat.
 
