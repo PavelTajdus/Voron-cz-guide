@@ -1,6 +1,6 @@
 # Startovní gcode
 Před prvním tiskem je potřeba nastavit `PRINT_START` makro a upravit startovní gcode v Průša Sliceru (případně ve sliceru vaší volby). Tento postup je určený pro Průša Slicer, potažmo Super Slicer.
-Ještě doplním, že toto je mnou používaný gcode pro Voron 2.4 300mm. Pokud máte jinou tiskárnu, některé části budete muset upravit, viz níže v komentářích.
+Ještě doplním, že toto je mnou používaný gcode pro Voron 2.4 300mm. Pokud máte jinou tiskárnu, některé části budete muset upravit, viz níže v komentářích. Samozřejmě toto není žádné dogma. Svoje makra si můžete nastavit a upravit dle svých potřeb, možností a samozřejmě parametrů tiskárny. Toto berte jako inspiraci a vysvětlení jednotlivých položek pro lepší pochopení.
 
 V Průša Sliceru na záložce `Nastavení tiskárny` přejděte do sekce `Vlastní G-code`. A do `Začátek G-code` vložte:
 ```
