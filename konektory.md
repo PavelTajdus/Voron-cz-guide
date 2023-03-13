@@ -2,7 +2,7 @@
 
 ## Molex Micro-Fit 3.0
 
-Maximální proud je **5A**. Pužívají se pro propojení motoru, toolheadu...
+Maximální proud je **5A**. Pužívají se pro propojení motorů, toolheadu...
 
 - Sady [Laskakit](https://www.laskakit.cz/vyhledavani/?string=micorfit)
 - Male [430310007](https://www.tme.eu/cz/details/mx-43031-0007/signalove-konektory-raster-3-00mm/molex/430310007/)
@@ -29,13 +29,13 @@ Základni desky, krokove motory...
 - Piny
   - SXH-001T-P0.6 [Tme](https://www.tme.eu/cz/details/sxh-001t-p0.6/signalove-konektory-raster-2-50mm/jst/)
 - XHP-2 (2 pin)
-  - Sensory, endstopy, vetraky
+  - Sensory, endstopy, větráky
   - [Tme](https://www.tme.eu/cz/details/xhp-2/signalove-konektory-raster-2-50mm/jst/)
 - XHP-3 (3 pin)
   - endstopy, neopixely
   - [Tme](https://www.tme.eu/cz/details/xhp-3/signalove-konektory-raster-2-50mm/jst/)
 - XHP-4
-  - Krkové motory
+  - Krokové motory
   - [Tme](https://www.tme.eu/cz/details/xhp-4/signalove-konektory-raster-2-50mm/jst/)
 - XHP-5
   - bltouch
@@ -43,7 +43,7 @@ Základni desky, krokove motory...
 
 ### JST-PH 2mm
 
-Konektor na krokovem motoru, který má odpojitelný kabel.
+Konektor na krokovém motoru, který má odpojitelný kabel.
 
 - piny
   - [laskakit](https://www.laskakit.cz/pin-pro-konektor-jst-ph/)

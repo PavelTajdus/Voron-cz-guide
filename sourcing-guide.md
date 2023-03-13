@@ -40,7 +40,7 @@ https://www.tme.eu/en/katalog/?search=heluflon&s_field=1000011&s_order=desc
 
 ## Konektory
 
-Na 3D tiskárnach jsou prevažne JST konektory s roztečí 2.5mm. Případne s roztečí 2mm, které lze vidět na krokovácy motorech. Dale na Voronech se používají konektor Molex MicroFit, více info o molexech lze najít v [oficialní dokumentaci](https://docs.vorondesign.com/build/electrical/)
+Na 3D tiskárnach jsou prevažne JST konektory s roztečí 2.5mm. Případne s roztečí 2mm, které lze vidět na krokových motorech. Dále na Voronech se používají konektory Molex MicroFit, více info o molexech lze najít v [oficialní dokumentaci](https://docs.vorondesign.com/build/electrical/)
 
 Podrobnější [seznam konektorů](konektory.md)
 
