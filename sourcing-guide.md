@@ -4,33 +4,31 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 # Elektro
 
 ## Ventilátory
-### 4020
-https://www.aliexpress.com/item/1005001464730686.html   
+### 4020 Bowler
+[Gdstime GDB4020](https://www.aliexpress.com/item/1005001464730686.html)
 
-### 5015
-https://www.aliexpress.com/item/4000783653572.html   
+### 5015 Bowler
+[Gdstime GDB5015](https://www.aliexpress.com/item/4000783653572.html)
  
-### 4010
-https://www.aliexpress.com/item/32727867521.html   
+### 4010 Axialní
+[Gdstime GDA4010](https://www.aliexpress.com/item/32727867521.html)
 
 ## Relé SSR
 https://www.kondik.cz/rele-ssr-2528zd3/   
 https://pajenicko.cz/komponenty/elektronicke-ssr-rele-ssr-40da-3v-32v-24v-380vac-40a   
 
-### Konektory s filtrem
+### PSU konektory s filtrem
 https://www.tme.eu/cz/details/riq0642h2/konektory-iec-60320/roxburgh-emc/   
 https://www.tme.eu/cz/details/kmf1.1291.11/konektory-iec-60320/schurter/  
 https://www.gme.cz/napajeci-euro-konektor-feh51105    
 
-
-## Konektory bez filtru
+## PSU konektory bez filtru
 https://www.gme.cz/napajeci-euro-konektor-schurter-gsw6762si   
 
 ## Kamery
 https://rpishop.cz/waveshare/1046-waveshare-imx179-8mpx-usb-kamera-a.html   
 https://www.aliexpress.com/item/1005002524568862.html   
 https://www.aliexpress.com/item/4000923077057.html
-
 
 ## Spínače
 https://www.gme.cz/p-sw201a-red   
@@ -39,6 +37,12 @@ https://www.gme.cz/napajeci-euro-konektor-feh51105
 ## Kabeláž
 https://www.elektrotechnika-shop.cz/jz-500-25g-05mm2-kabel-flexibilni-pvc-sedy-cislovane-zily-se-zezl-10019
 https://www.tme.eu/en/katalog/?search=heluflon&s_field=1000011&s_order=desc
+
+## Konektory
+
+Na 3D tiskárnach jsou prevažne JST konektory s roztečí 2.5mm. Případne s roztečí 2mm, které lze vidět na krokovácy motorech. Dale na Voronech se používají konektor Molex MicroFit, více info o molexech lze najít v [oficialní dokumentaci](https://docs.vorondesign.com/build/electrical/)
+
+Podrobnější [seznam konektorů](konektory.md)
 
 ## Neopixel LED (StealthBurner)
 https://www.aliexpress.com/item/32542223934.html   
