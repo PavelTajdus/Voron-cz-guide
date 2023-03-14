@@ -4,13 +4,17 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 # Elektro
 
 ## Ventilátory
-### 4020 Bowler
+
+### 4020 Blower
+
 [Gdstime GDB4020](https://www.aliexpress.com/item/1005001464730686.html)
 
-### 5015 Bowler
+### 5015 Blower
+
 [Gdstime GDB5015](https://www.aliexpress.com/item/4000783653572.html)
- 
-### 4010 Axialní
+
+### 4010 Radiální
+
 [Gdstime GDA4010](https://www.aliexpress.com/item/32727867521.html)
 
 ## Relé SSR
