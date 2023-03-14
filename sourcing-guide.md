@@ -7,15 +7,21 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 
 ### 4020 Blower
 
-[Gdstime GDB4020](https://www.aliexpress.com/item/1005001464730686.html)
+[Gdstime GDB4020 - Aliexpress.com](https://www.aliexpress.com/item/1005001464730686.html)
+
+[Gdstime GDB4020 - Hotend.cz](https://www.hotend.cz/ventilatory/458-gdstime-radialni-ventilator-blower-4020-24v-dual-ball.html)
 
 ### 5015 Blower
 
-[Gdstime GDB5015](https://www.aliexpress.com/item/4000783653572.html)
+[Gdstime GDB5015 - Aliexpress.com](https://www.aliexpress.com/item/4000783653572.html)
 
-### 4010 Radiální
+[Gdstime GDB5015 - Hotned.cz](https://www.hotend.cz/ventilatory/459-gdstime-radialni-ventilator-blower-5015-24v-dual-ball.html)
 
-[Gdstime GDA4010](https://www.aliexpress.com/item/32727867521.html)
+### 4010 Axialní
+
+[Gdstime GDA4010 - Aliexpress.com](https://www.aliexpress.com/item/32727867521.html)
+
+[Gdstime GDA4010 - Hotned.cz](https://www.hotend.cz/ventilatory/460-gdstime-axialni-ventilator-4010-24v-dual-ball.html)
 
 ## Relé SSR
 https://www.kondik.cz/rele-ssr-2528zd3/   
@@ -46,7 +52,57 @@ https://www.tme.eu/en/katalog/?search=heluflon&s_field=1000011&s_order=desc
 
 Na 3D tiskárnach jsou prevažne JST konektory s roztečí 2.5mm. Případne s roztečí 2mm, které lze vidět na krokových motorech. Dále na Voronech se používají konektory Molex MicroFit, více info o molexech lze najít v [oficialní dokumentaci](https://docs.vorondesign.com/build/electrical/)
 
-Podrobnější [seznam konektorů](konektory.md)
+### Molex Micro-Fit 3.0
+
+Maximální proud je **5A**. Pužívají se pro propojení motorů, toolheadu...
+
+- Sady [Laskakit](https://www.laskakit.cz/vyhledavani/?string=micorfit)
+- Male [430310007](https://www.tme.eu/cz/details/mx-43031-0007/signalove-konektory-raster-3-00mm/molex/430310007/)
+  - 0,25÷0,5mm2
+- Female [430300007](https://www.tme.eu/cz/details/mx-43030-0007/signalove-konektory-raster-3-00mm/molex/430300007/)
+  - 0,205÷0,519mm2
+- 2 pins
+  - Male [436450200](https://www.tme.eu/cz/details/mx-43645-0200/signalove-konektory-raster-3-00mm/molex/436450200/)
+  - Female [436400201](https://www.tme.eu/cz/details/mx-43640-0201/signalove-konektory-raster-3-00mm/molex/436400201/)
+- 3 pins
+  - Male [436450300](https://www.tme.eu/cz/details/mx-43645-0300/signalove-konektory-raster-3-00mm/molex/436450300/)
+  - Female [436400301](https://www.tme.eu/cz/details/mx-43640-0301/signalove-konektory-raster-3-00mm/molex/436400301/)
+- 4 pins
+  - Male [436450400](https://www.tme.eu/cz/details/mx-43645-0400/signalove-konektory-raster-3-00mm/molex/436450400/)
+  - Female [436400401](https://www.tme.eu/cz/details/mx-43640-0401/signalove-konektory-raster-3-00mm/molex/436400401/)
+
+### JST
+
+Základni desky, krokove motory...
+
+#### JST-XH 2.5mm
+
+- Sada [laskakit](https://www.laskakit.cz/laskakit-sada-jst-xh-konektoru-80ks/)
+- Piny
+  - SXH-001T-P0.6 [Tme](https://www.tme.eu/cz/details/sxh-001t-p0.6/signalove-konektory-raster-2-50mm/jst/)
+- XHP-2 (2 pin)
+  - Sensory, endstopy, větráky
+  - [Tme](https://www.tme.eu/cz/details/xhp-2/signalove-konektory-raster-2-50mm/jst/)
+- XHP-3 (3 pin)
+  - endstopy, neopixely
+  - [Tme](https://www.tme.eu/cz/details/xhp-3/signalove-konektory-raster-2-50mm/jst/)
+- XHP-4
+  - Krokové motory
+  - [Tme](https://www.tme.eu/cz/details/xhp-4/signalove-konektory-raster-2-50mm/jst/)
+- XHP-5
+  - bltouch
+  - [Tme](https://www.tme.eu/cz/details/xhp-5/signalove-konektory-raster-2-50mm/jst/)
+
+#### JST-PH 2mm
+
+Konektor na krokovém motoru, který má odpojitelný kabel.
+
+- piny
+  - [laskakit](https://www.laskakit.cz/pin-pro-konektor-jst-ph/)
+  - SPH-001T-P0.5S [Tme](https://www.tme.eu/cz/details/sph-001t-p0.5s_c/signalove-konektory-raster-2-00mm/jst/sph-001t-p0-5s/)
+- PHR 6 (6 pin)
+  - [Tme](https://www.tme.eu/cz/details/phr-6/signalove-konektory-raster-2-00mm/jst/)
+  - [laskakit](https://www.laskakit.cz/jst-ph-2mm-telo-konektoru/)
 
 ## Neopixel LED (StealthBurner)
 https://www.aliexpress.com/item/32542223934.html   
@@ -68,7 +124,7 @@ https://www.prumex.cz/spojovaci-material-srouby-s-valcovou-hlavou/
 https://www.aliexpress.com/item/4000464713908.html   
 https://www.aliexpress.com/item/32851320734.html   
 
-## Lineární vedení 
+## Lineární vedení
 
 ## Zakrytování tiskárny
 https://www.obalove-materialy.cz/kartonplastovy-proklad-3-mm-80-120-cm-transparentni-600-g   
