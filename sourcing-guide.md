@@ -158,7 +158,7 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 [Šróby - bbtechnik.sk](https://www.bbtechnik.sk/213-skrutky)
 
-##### Heat insert sety
+#### Heat insert sety
 
 Voron default: M3x5x4
 
