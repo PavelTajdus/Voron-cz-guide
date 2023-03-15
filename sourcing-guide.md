@@ -18,6 +18,12 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 
 [Gdstime GDB5015 - Hotned.cz](https://www.hotend.cz/ventilatory/459-gdstime-radialni-ventilator-blower-5015-24v-dual-ball.html)
 
+[Sunon MagLev mf50152vx-1l01c-s99 - 4-wire - Aliexpress.com](https://www.aliexpress.com/item/4000783653572.html)
+
+[Sunon MagLev mf50152vx-1l01c-s99 - 4-wire - hotend.cz](https://www.hotend.cz/ventilatory/467-sunon-maglev-blower-5015-24v-mf50152vx-1l01c-q99.html)
+
+[5015 24V Delta BFB0524HH - 2 a 3-wire - Aliexpress.com](https://www.aliexpress.com/item/1133525147.html)
+
 #### 4010 Axialní
 
 [Gdstime GDA4010 - Aliexpress.com](https://www.aliexpress.com/item/32727867521.html)
