@@ -141,12 +141,33 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 ## Hardware
 
+### Nářadí
+
+[Mikrometer - Aliexpress.com](https://www.aliexpress.com/item/32820610883.html)
+
+[Mikrometer (asi lepší) - insz.eu](https://www.insz.eu/mechanicke-trmenove-mikrometry/mikrometr-vnejsi-s-1--m-stupnici-insize-25-mm/)
+
+[Pájka na heatsety - Aliexpress.com](https://www.aliexpress.com/item/1005001634455831.html)
+
+[Threaded heatset insert tool - Amazon.de](https://www.amazon.de/-/en/Turmberg3D-soldering-melting-threaded-inserts/dp/B097RR1KCB)
+
+[Miniware ES15 šroubovák - Aliexpress.com](https://www.aliexpress.com/item/1005001872201642.html)
+
+[Wera bit imbus 2.5](https://www.boukal.cz/wera-059604-bit-inbus-2-5-mm-840-4-z-hex-plus-sroubovaci-bit-1-4-hex-50-mm-pro-srouby-s-vnitrnim-sestihranem/76505/produkt)
+
+[Různé jednotlivé bity 4mm - Aliexpress.com](https://www.aliexpress.com/item/1005002950902853.html)
+
+[Různé jednotlivé bity 1/4" - Aliexpress.com](https://www.aliexpress.com/item/1005002846230314.html)
+
 ### Profily
+
+- [ ] Doplnit
 
 ### Spojovací materiál
 
 [Pěnová páska - Aliexpress.com](https://www.aliexpress.com/item/4000897642260.html)
-[Chladiče na motory - Aliexpress.com](https://www.aliexpress.com/item/32950514537.html)
+
+[Chladiče na krokové motory - Aliexpress.com](https://www.aliexpress.com/item/32950514537.html)
 
 #### Šrouby a matice
 
@@ -162,11 +183,15 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 Voron default: M3x5x4
 
-[Aliexpress](https://www.aliexpress.com/item/1005002069529871.html)
-[Aliexpress](https://www.aliexpress.com/item/4000232858343.html)
-[Aliexpress](https://www.aliexpress.com/item/1005002897983868.html)
-[Aliexpress](https://www.aliexpress.com/item/4000716825550.html)
-[Aliexpress](https://www.aliexpress.com/item/1005002072800580.html)
+[Aliexpress.com](https://www.aliexpress.com/item/1005002069529871.html)
+
+[Aliexpress.com](https://www.aliexpress.com/item/4000232858343.html)
+
+[Aliexpress.com](https://www.aliexpress.com/item/1005002897983868.html)
+
+[Aliexpress.com](https://www.aliexpress.com/item/4000716825550.html)
+
+[Aliexpress.com](https://www.aliexpress.com/item/1005002072800580.html)
 
 #### T-nut
 
@@ -188,7 +213,7 @@ Voron default: M3x5x4
 
 [Genuine Hiwin - Aliexpress.com](https://www.aliexpress.com/item/32375560219.html)
 
-[Kuličky - mateza.cz](https://www.mateza.cz/e-shop/skf-2-381-nerez-aisi-420c-loziskova-kulicka)
+[Náhradní kuličky - mateza.cz](https://www.mateza.cz/e-shop/skf-2-381-nerez-aisi-420c-loziskova-kulicka)
 
 ### Zakrytování tiskárny
 
