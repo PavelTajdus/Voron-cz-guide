@@ -1,6 +1,6 @@
 # Seznam doporučených dílů na tiskárny Voron
 
-Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Seznam je sesbíraný s Voron Discordu (Česko Slovenská sekce).
+Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Voron. Seznam je sesbíraný s Voron Discordu (Česko Slovenská sekce).
 
 ## Elektro
 
@@ -16,7 +16,7 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 
 [Gdstime GDB5015 - Aliexpress.com](https://www.aliexpress.com/item/4000783653572.html)
 
-[Gdstime GDB5015 - Hotned.cz](https://www.hotend.cz/ventilatory/459-gdstime-radialni-ventilator-blower-5015-24v-dual-ball.html)
+[Gdstime GDB5015 - Hotend.cz](https://www.hotend.cz/ventilatory/459-gdstime-radialni-ventilator-blower-5015-24v-dual-ball.html)
 
 [Sunon MagLev mf50152vx-1l01c-s99 - 4-wire - Aliexpress.com](https://www.aliexpress.com/item/4000783653572.html)
 
@@ -28,7 +28,7 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 
 [Gdstime GDA4010 - Aliexpress.com](https://www.aliexpress.com/item/32727867521.html)
 
-[Gdstime GDA4010 - Hotned.cz](https://www.hotend.cz/ventilatory/460-gdstime-axialni-ventilator-4010-24v-dual-ball.html)
+[Gdstime GDA4010 - Hotend.cz](https://www.hotend.cz/ventilatory/460-gdstime-axialni-ventilator-4010-24v-dual-ball.html)
 
 ### Relé SSR
 
@@ -221,7 +221,7 @@ Voron default: M3x5x4
 
 #### Magnety
 
-[Magnety - Hotned.cz](https://www.hotend.cz/69-magnety)
+[Magnety - Hotend.cz](https://www.hotend.cz/69-magnety)
 
 ### Titanium Extrusion Backers
 
