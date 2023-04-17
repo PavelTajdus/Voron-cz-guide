@@ -8,8 +8,6 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Voron. Sezn
 
 #### 4020 Blower
 
-[Gdstime GDB4020 - Aliexpress.com](https://www.aliexpress.com/item/1005001464730686.html)
-
 [Gdstime GDB4020 - Hotend.cz](https://www.hotend.cz/ventilatory/458-gdstime-radialni-ventilator-blower-4020-24v-dual-ball.html)
 
 #### 5015 Blower
