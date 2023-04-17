@@ -1,6 +1,6 @@
 # Seznam doporučených dílů na tiskárny Voron
 
-Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Voron. Seznam je sesbíraný s Voron Discordu (Česko Slovenská sekce).
+Strukturovaný seznam zdrojů pro nákup dílů ke stavbě nebo upgrade tiskáren Voron. Seznam je sesbíraný s Voron Discordu (Česko Slovenská sekce).
 
 ## Elektro
 
