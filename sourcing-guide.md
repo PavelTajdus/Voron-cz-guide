@@ -1,14 +1,18 @@
 # Seznam doporučených dílů na tiskárny Voron
 
-Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Seznam je sesbíraný s Voron Discordu (Česko Slovenská sekce).
+Strukturovaný seznam zdrojů pro nákup dílů ke stavbě nebo upgrade tiskáren Voron. Seznam je sesbíraný s Voron Discordu (Česko Slovenská sekce).
 
 ## Elektro
+
+### Základní desky/Drivery
+
+[BIGTREETECH OCTOPUS V1.1 - Hotend.cz](https://www.hotend.cz/zakladni-desky/390-bigtreetech-octopus-v11.html)
+
+[BIGTREETECH TMC2209 UART - Hotend.cz](https://www.hotend.cz/drivery/412-bigtreetech-tmc2209-driver-v13-uart.html)
 
 ### Ventilátory
 
 #### 4020 Blower
-
-[Gdstime GDB4020 - Aliexpress.com](https://www.aliexpress.com/item/1005001464730686.html)
 
 [Gdstime GDB4020 - Hotend.cz](https://www.hotend.cz/ventilatory/458-gdstime-radialni-ventilator-blower-4020-24v-dual-ball.html)
 
@@ -16,7 +20,7 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 
 [Gdstime GDB5015 - Aliexpress.com](https://www.aliexpress.com/item/4000783653572.html)
 
-[Gdstime GDB5015 - Hotned.cz](https://www.hotend.cz/ventilatory/459-gdstime-radialni-ventilator-blower-5015-24v-dual-ball.html)
+[Gdstime GDB5015 - Hotend.cz](https://www.hotend.cz/ventilatory/459-gdstime-radialni-ventilator-blower-5015-24v-dual-ball.html)
 
 [Sunon MagLev mf50152vx-1l01c-s99 - 4-wire - Aliexpress.com](https://www.aliexpress.com/item/4000783653572.html)
 
@@ -28,7 +32,7 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Vonor. Sezn
 
 [Gdstime GDA4010 - Aliexpress.com](https://www.aliexpress.com/item/32727867521.html)
 
-[Gdstime GDA4010 - Hotned.cz](https://www.hotend.cz/ventilatory/460-gdstime-axialni-ventilator-4010-24v-dual-ball.html)
+[Gdstime GDA4010 - Hotend.cz](https://www.hotend.cz/ventilatory/460-gdstime-axialni-ventilator-4010-24v-dual-ball.html)
 
 ### Relé SSR
 
@@ -149,7 +153,7 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 [Pájka na heatsety - Aliexpress.com](https://www.aliexpress.com/item/1005001634455831.html)
 
-[Threaded heatset insert tool - Amazon.de](https://www.amazon.de/-/en/Turmberg3D-soldering-melting-threaded-inserts/dp/B097RR1KCB)
+[Threaded heatset insert tool - Hotend.cz](https://www.hotend.cz/nastroje/553-hrot-pro-instalaci-zavitovych-vlozek-m3-heat-insert-tip-tool.html)
 
 [Miniware ES15 šroubovák - Aliexpress.com](https://www.aliexpress.com/item/1005001872201642.html)
 
@@ -183,7 +187,7 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 Voron default: M3x5x4
 
-[Aliexpress.com](https://www.aliexpress.com/item/1005002069529871.html)
+[Hotend.cz](https://www.hotend.cz/spojovaci-material/365-tepelna-zavitova-vlozka-heat-insert-voron-m3-x-d5-x-l4.html)
 
 [Aliexpress.com](https://www.aliexpress.com/item/4000232858343.html)
 
@@ -221,11 +225,19 @@ Voron default: M3x5x4
 
 #### Magnety
 
-[6x3 magnet - unimagnet.cz](https://www.unimagnet.cz/kt-06-03-n_z322/)
+[Magnety - Hotend.cz](https://www.hotend.cz/69-magnety)
 
 ### Titanium Extrusion Backers
 
-[Vonwage.com](https://vonwange.com/?s=backers&jet_ajax_search_settings=%7B%22results_order_by%22%3A%22relevance%22%2C%22results_order%22%3A%22asc%22%2C%22search_source%22%3A%22any%22%7D)
+[TITANIUM EXTRUSION BACKERS 350 - Hotend.cz](https://www.hotend.cz/upgrade-kity/720-titanium-extrusion-backers-350-mm-by-whoppingpochard.html)
+
+[TITANIUM EXTRUSION BACKERS 300 - Hotend.cz](https://www.hotend.cz/upgrade-kity/721-titanium-extrusion-backers-300-mm-by-whoppingpochard.html)
+
+[TITANIUM EXTRUSION BACKERS 250 - Hotend.cz](https://www.hotend.cz/upgrade-kity/781-titanium-extrusion-backers-250-mm-by-whoppingpochard.html)
+
+### Nevermore filtr
+
+[Filtr Nevermore - Hotend.cz](https://www.hotend.cz/upgrade-kity/598-nevermore-v5-duo-kit-filtr-s-aktivnim-uhlim.html)
 
 ### Hliníkový bed
 
