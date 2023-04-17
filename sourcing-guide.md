@@ -226,7 +226,9 @@ Voron default: M3x5x4
 ### Titanium Extrusion Backers
 
 [TITANIUM EXTRUSION BACKERS 350 - Hotend.cz](https://www.hotend.cz/upgrade-kity/720-titanium-extrusion-backers-350-mm-by-whoppingpochard.html)
+
 [TITANIUM EXTRUSION BACKERS 300 - Hotend.cz](https://www.hotend.cz/upgrade-kity/721-titanium-extrusion-backers-300-mm-by-whoppingpochard.html)
+
 [TITANIUM EXTRUSION BACKERS 250 - Hotend.cz](https://www.hotend.cz/upgrade-kity/781-titanium-extrusion-backers-250-mm-by-whoppingpochard.html)
 
 ### Hliníkový bed
