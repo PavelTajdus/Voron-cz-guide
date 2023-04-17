@@ -4,6 +4,12 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě tiskáren Voron. Sezn
 
 ## Elektro
 
+### Základní desky/Drivery
+
+[BIGTREETECH OCTOPUS V1.1 - Hotend.cz](https://www.hotend.cz/zakladni-desky/390-bigtreetech-octopus-v11.html)
+
+[BIGTREETECH TMC2209 UART - Hotend.cz](https://www.hotend.cz/drivery/412-bigtreetech-tmc2209-driver-v13-uart.html)
+
 ### Ventilátory
 
 #### 4020 Blower
