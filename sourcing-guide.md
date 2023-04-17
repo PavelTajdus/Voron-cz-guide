@@ -149,7 +149,7 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 [Pájka na heatsety - Aliexpress.com](https://www.aliexpress.com/item/1005001634455831.html)
 
-[Threaded heatset insert tool - Amazon.de](https://www.amazon.de/-/en/Turmberg3D-soldering-melting-threaded-inserts/dp/B097RR1KCB)
+[Threaded heatset insert tool - Hotend.cz](https://www.hotend.cz/nastroje/553-hrot-pro-instalaci-zavitovych-vlozek-m3-heat-insert-tip-tool.html)
 
 [Miniware ES15 šroubovák - Aliexpress.com](https://www.aliexpress.com/item/1005001872201642.html)
 
@@ -183,7 +183,7 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 Voron default: M3x5x4
 
-[Aliexpress.com](https://www.aliexpress.com/item/1005002069529871.html)
+[Hotend.cz](https://www.hotend.cz/spojovaci-material/365-tepelna-zavitova-vlozka-heat-insert-voron-m3-x-d5-x-l4.html)
 
 [Aliexpress.com](https://www.aliexpress.com/item/4000232858343.html)
 
@@ -221,11 +221,13 @@ Voron default: M3x5x4
 
 #### Magnety
 
-[6x3 magnet - unimagnet.cz](https://www.unimagnet.cz/kt-06-03-n_z322/)
+[Magnety - Hotned.cz](https://www.hotend.cz/69-magnety)
 
 ### Titanium Extrusion Backers
 
-[Vonwage.com](https://vonwange.com/?s=backers&jet_ajax_search_settings=%7B%22results_order_by%22%3A%22relevance%22%2C%22results_order%22%3A%22asc%22%2C%22search_source%22%3A%22any%22%7D)
+[TITANIUM EXTRUSION BACKERS 350 - Hotend.cz](https://www.hotend.cz/upgrade-kity/720-titanium-extrusion-backers-350-mm-by-whoppingpochard.html)
+[TITANIUM EXTRUSION BACKERS 300 - Hotend.cz](https://www.hotend.cz/upgrade-kity/721-titanium-extrusion-backers-300-mm-by-whoppingpochard.html)
+[TITANIUM EXTRUSION BACKERS 250 - Hotend.cz](https://www.hotend.cz/upgrade-kity/781-titanium-extrusion-backers-250-mm-by-whoppingpochard.html)
 
 ### Hliníkový bed
 
