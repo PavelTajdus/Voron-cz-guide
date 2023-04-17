@@ -229,6 +229,10 @@ Voron default: M3x5x4
 
 [TITANIUM EXTRUSION BACKERS 250 - Hotend.cz](https://www.hotend.cz/upgrade-kity/781-titanium-extrusion-backers-250-mm-by-whoppingpochard.html)
 
+### Nevermore filtr
+
+[Filtr Nevermore - Hotend.cz](https://www.hotend.cz/upgrade-kity/598-nevermore-v5-duo-kit-filtr-s-aktivnim-uhlim.html)
+
 ### Hliníkový bed
 
 [MIC6 Hliníková doska - hlinik.cz](https://hlinik.cz/produkty/lite-hlinikove-desky/5083-lita/)
