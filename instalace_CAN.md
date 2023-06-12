@@ -2,13 +2,13 @@
 - https://www.hotend.cz/upgrade-kity/587-voron-stealthburner-can-pcb-v11-kit-kabelaz.html
 - https://www.hotend.cz/zakladni-desky/588-ucan-v10-usb-to-can.html
 
-# Instalace potřebných balíčků
+## Instalace potřebných balíčků
 Do příkazové řádky zadej následující příkazy:
 ```bash
 sudo apt-get install gcc-arm-none-eabi cmake dfu-util -y
 ```
 
-# Klonování repozitáře a sestavení
+# Instalace UCAN
 Do příkazové řádky zadej následující příkazy:
 ```bash
 git clone https://github.com/bigtreetech/candleLight_fw
@@ -114,7 +114,11 @@ make menuconfig
 ```
 Ujisti se, že tvoje konfigurace odpovídá obrázku FYSTEC SB CAN TH Menu config
 
-![image]([https://github.com/PavelTajdus/Voron-cz-guide/assets/6259149/9fff6ece-eb41-4b57-a55d-da4e6084fd7e](https://wiki.fysetc.com/assets/SB_CAN_ToolHEAD_menuconfig.png))
+![image](https://github.com/PavelTajdus/Voron-cz-guide/blob/main/images/SB_CAN_ToolHEAD_menuconfig.png?raw=true)
+
+Ukonči použitím ESC nebo Q, potvrď ano (Y).
+
+Pokračuj zadáním následujících příkazů:
 ```bash
 make
 ```
@@ -123,10 +127,10 @@ make
 dfu-util -R -a 0 -s 0x08000000:leave -D out/klipper.bin
 ```
 
-# Instalace CANBOOT
+## Instalace CANBOOT
 Pokračuj dále v instalaci podle následujícího postup. Originál tohoto návodu najdeš na [teomto odkaze](https://maz0r.github.io/klipper_canbus/toolhead/sb_can_v1.1.html), za což děkuji jeho autorovi.
 
-## Generování souboru firmware CANboot 
+### Generování souboru firmware CANboot 
 Klonuj repozitář CanBoot do svého Raspberry Pi:
 
 ```bash
@@ -139,16 +143,16 @@ make menuconfig
 Nakonfiguruj svůj makefile pro FYSETC SB CAN TH s STM32F072
 
 ![image](https://github.com/PavelTajdus/Voron-cz-guide/assets/6259149/ed39a616-ea18-4d80-95d2-ed665528cfea)
-
+  
 Ukonči použitím ESC nebo Q, potvrď ano (Y).
 
-## Sestavení firmware
+### Sestavení firmware
 ```bash
 make clean
 make
 ```
 
-## Připojení desky pro nahrání
+### Připojení desky pro nahrání
 Vypni desku SB-CAN-TH na alespoň 5 sekund odpojením kabelu CANBUS.
 
 Připoj své zařízení k Raspberry Pi přes USB.
@@ -162,7 +166,7 @@ Bus 001 Device 005: ID 0483:df11 STMicroelectronics STM Device in DFU Mode
 ```
 Nahraj bootloader canboot na desku. Tvoje DeviceID (0483:df11) může být jiné, ZKONTROLUJ TO! (viz krok 2)
 
-### VYMAZÁNÍ A NAHRÁNÍ FIRMWARE CANBOOT
+#### VYMAZÁNÍ A NAHRÁNÍ FIRMWARE CANBOOT
 
 ```bash
 sudo dfu-util -a 0 -D ~/CanBoot/out/canboot.bin --dfuse-address 0x08000000:force:mass-erase:leave -d 0483:df11
