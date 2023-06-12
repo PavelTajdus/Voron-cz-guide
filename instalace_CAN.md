@@ -172,7 +172,7 @@ Nahraj bootloader canboot na desku. Tvoje DeviceID (0483:df11) může být jiné
 sudo dfu-util -a 0 -D ~/CanBoot/out/canboot.bin --dfuse-address 0x08000000:force:mass-erase:leave -d 0483:df11
 ```
 
-[![Obrazek canboot_bootloader_flash.png](../images/canboot_bootloader_flash.png)](https://maz0r.github.io/klipper_canbus/images/canboot_bootloader_flash.png)
+![Obrazek canboot_bootloader_flash.png](https://maz0r.github.io/klipper_canbus/images/canboot_bootloader_flash.png)
 
 Poznámka: Pokud vidíš chybu po provedení předchozího kroku, neboj se, vše je v pořádku, pokud vidíš text "File Downloaded Successfully".
 
@@ -204,7 +204,7 @@ make menuconfig
 ```
 Povol nízkoúrovňovou konfiguraci nastavením následujících položek.
 
-[![Obrazek sbcan_v1.1_klipper_make.png](../images/sbcan_v1.1_klipper_make.png)](https://maz0r.github.io/klipper_canbus/images/sb_can_v1.1_klipper_make.png)
+![Obrazek sbcan_v1.1_klipper_make.png](https://maz0r.github.io/klipper_canbus/images/sb_can_v1.1_klipper_make.png)
 
 Stiskni Q pro ukončení a Y pro uložení změn.
 
@@ -217,7 +217,7 @@ Nyní můžeš nahrát firmware na desku
 ```bash
 python3 ~/CanBoot/scripts/flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u MYUUID
 ```
-[![Obrazek canboot_flash.png](../images/canboot_flash.png)](https://maz0r.github.io/klipper_canbus/images/canboot_flash.png)
+![Obrazek canboot_flash.png](https://maz0r.github.io/klipper_canbus/images/canboot_flash.png)
 
 Pokud vše proběhlo v pořádku, měl bys mít na své CAN desce nainstalovaný klipper.
 
