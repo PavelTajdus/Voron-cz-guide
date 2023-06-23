@@ -32,6 +32,11 @@ https://github.com/VoronDesign/Voron-2
 
 ### Manuál
 https://github.com/VoronDesign/Voron-2/blob/Voron2.4/Manual/Assembly_Manual_2.4r2.pdf
+Zde pozor, v kitech se běžně dodává Stealthburner, ale v manuálu je stále Afterburner. Jakmile narazíte na sestavení toolheadu, přejděte do manuálu pro SB.
+https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Manual/Assembly_Manual_SB.pdf
+Pokud rovnou instalujete TAP, což vřele doporučuji, otevřete si další manuál:
+https://github.com/VoronDesign/Voron-Tap/blob/main/Manual/Assembly_Manual_Tap.pdf
+
 
 ### Firmware - Config pro obvyklé desky
 https://github.com/VoronDesign/Voron-2/tree/Voron2.4/firmware/klipper_configurations
