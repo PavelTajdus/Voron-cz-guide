@@ -2,7 +2,7 @@
 Veškerou kabeláž máme hotovou, máme flešnutou desku, nastavený `printer.cfg` a klipper nám komunikuje s deskou. Skvěle. Tak teď musíme postupně otestovat, že nám vše funguje a správně se hýbe.
 
 ## Endstopy
-Není nutné dělat všechny kroky v přesném pořadí, nicméně Endstopy byste měli testovat dříve než se pokusíte hýbat s motory. Z bezpečnostních důvodů.
+Není nutné dělat všechny kroky v přesném pořadí, nicméně Endstopy byste z bezpečnostních důvodů měli otestovat dříve, než se pokusíte pohybovat s motory.
 Jak ověřit funkčnost a správné zapojení endstopů? Nejjednodušší způsob je v Settings -> Endstops. Zde máte vypsané všechny endstopy a pomocí tlačítka obnovit můžete zjistit jejich aktuální stav. Případně můžete do konzole napsat příkaz `QUERY_ENDSTOPS`, který vám stav endstopů vypíše také.
 - Přesuňte tiskovou hlavu doprostřed podložky (aby nebyly endstopy sepnuté) a klikněte na tlačítko obnovit. Měli byste u všech endstopů vidět stav `open`.
 - Pokud nemáte žádný endstop sepnutý a vidíte všude `open`, zkuste ručně endstop sepnout (a držet). Při tom klikněte na tlačítko obnovit. U sepnutého endstopu by se mělo objevit `triggered`. Takto je to v pořádku a pokračujte s kontrolou na další endstopy.
@@ -12,7 +12,7 @@ Jak ověřit funkčnost a správné zapojení endstopů? Nejjednodušší způso
 - pokud ani přesto endstop nereaguje, a všechny předchozí body máte správně, vyměňte spínač.
 
 ## Nahřívání, termistory, větráky
-Tři odlišné věci, ale vzájemně propojené, takže je otestujeme naráz.
+Jedná se o tři odlišné, avšak vzájemně propojené věci, které proto otestujeme současně.
 V Mainsalu v dashboardu vidíte na pravé straně grafy teplot. Jsou tam zobrazeny jak teploty hotendu v čase, tak teploty podložky. Těch teplot tam můžete vidtě více (například teplota Raspberry, či teplota desky), ale pro fukčnost jsou klíčové teploty hotendu a desky.
 
 ![Mainsail a nastavení teplot](/images/mainsail_temp_graph.png)
@@ -30,14 +30,14 @@ Pokud by nefungovaly termistory, klipper by vyhodil chybu už dříve, takže v 
 - Posledním krokem této kontroly je spuštění ventilátoru pro ofuk tisku. V dashboardu je slider pro ovládání ventilátoru, otestujeme že funguje jak na 100 %, tak i při nižších rychlostech okolo 20 - 30 %.
 
 ## Motory
-Zkontrolujte, že po zapnutí tiskárny můžete hýbat se všemi motory volně. Pokud by s některým z motorů hýbat nešlo (je aktivní), pak je zřejmě obrácena logika pro `enable_pin` nastavení. Stejně jako u endstopů, přidejte nebo odeberte vykřičník. Například `enable_pin: !ar38` přepište na `enable_pin: ar38`. Restartuje firmware a zkuste jestli se dá s motem hýbat.
+Zkontrolujte, že po zapnutí tiskárny můžete hýbat se všemi motory volně. Pokud by s některým z motorů hýbat nešlo (je aktivní), pak je zřejmě obrácena logika pro `enable_pin` nastavení. Stejně jako u endstopů, přidejte nebo odeberte vykřičník. Například `enable_pin: !ar38` přepište na `enable_pin: ar38`. Restartuje firmware a zkuste, jestli se dá s motem hýbat.
 
 ### Stepper Buzz
 Nyní se pustíme do kontroly motorů. Klipper má jednoduchý příkaz, kterým rozpohybuje specifikovaný motor.
-Do konzole zadejte příkaz `STEPPER_BUZZ STEPPER=stepper_x` a sledujte co dělá tiskárna. Tento příkaz posune motor o +10mm a zpět. A 10x opakuje.
+Do konzole zadejte příkaz `STEPPER_BUZZ STEPPER=stepper_x` a sledujte, co dělá tiskárna. Tento příkaz posune motor o +10mm a zpět. A 10x opakuje.
 Tímto způsobem otestujte všechny motory. 
 
-Názvy motorů například u Voron 2.4 jsou takto:
+Například názvy motorů u Voron 2.4 jsou takto:
 - stepper_x
 - stepper_y
 - stepper_z
@@ -59,7 +59,7 @@ Pokud jsme zkontrolovali endstopy, a motory nám chodí tak jak chceme, můžeme
 
 **Tlačítko v mainsailu funguje dobře, takže doporučuji používat to (a hlavně nemusíte pak čekat než naběhne Raspberry), ale přeci jen kdyby se něco posralo, buďte připraveni skočit po hlavním vypínači.**
 
-Při homování by měl jet motor směrem k endstopu. Pokud nejede, máme buď špatně nastavený směr otáčení motoru (`dir_pin`), nebo máme špatně specifikované umístění endstopu. Nicméně tyto věci jsou v připraveném confifigu pro danou desku nebo tiskárnu již většinou správně. Proto to nebudu tady rozepisovat.
+Při homování by měl jet motor směrem k endstopu. Pokud nejede, máme buď špatně nastavený směr otáčení motoru (`dir_pin`), nebo máme špatně specifikované umístění endstopu. Nicméně tyto věci jsou v připraveném configu pro danou desku nebo tiskárnu již většinou správně. Proto to nebudu tady rozepisovat.
 
 U CoreXY je někdy náročné nastavit směr pohybu motorů. Voron má krásně zpracované obrázky jak by se motory měly hýbat, a hlavně který je který. Sledujte směr pohybu motorů (hlavně na x a y ose) a podle obrázku vyhledejte jestli je to ok, nebo jestli máte něco otočit. Případně můžete mít zaměněný Motor A a B.
 
@@ -95,5 +95,5 @@ Najeďte do bodu, kde bute měřit vzdálenost trysky od podložky
 
 Spusťte v konzoli příkaz `Z_ENDSTOP_CALIBRATE`. Jak Mainsail, tak Fluidd mají na kalibraci grafickou nádstavbu, takže následné úpravy vzdálenosti trysky od podložky jsou už jednoduché. Pomocí klasické papírové metody (papír pod tryskou musí jemně drhnout) a snižováním nevo zvyšováním výšky Z najděte správnou polohu. Následně klikněte na Accept a pomocí tlačítka SAVE CONFIG naměřené hodnoty uložte a restartujte klipper.
 
-Nezpomeňte si v congigu u `[bed_mesh]` nastavit `relative_reference_index`. Relative reference index nastavte co nejblíže k bodu, kde jste měřili Z offset.
+Nezpomeňte si v configu u `[bed_mesh]` nastavit `relative_reference_index`. Relative reference index nastavte co nejblíže k bodu, kde jste měřili Z offset.
 Více info jak nastavit relative reference index najdete v záznamu mého streamu: https://youtu.be/Vi1-iHbne04
