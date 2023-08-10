@@ -61,14 +61,14 @@ ls /dev/serial/by-id/*
 Po zadání tohoto příkazu do konzole by na vás mělo vypadnout něco jako `/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0`. Toto si zkopírujeme, budeme to potřebovat dále. Pokud se vám nic takového neobjevilo, znamená to že se RPI vaši desku z nějakého důvodu nevidí.
 
 ## Nahrání firmware do desky
-Firmware jsme si připravili, a přesunuli do do složky. Nyní se přesuneme do webového rozhraní Mainsailu. Do prohlížeče zadejte IP adresu vašeho RPI, nebo síťový název (voron.local, mainsailos.local atd.).
+Firmware jsme si připravili, a přesunuli ho do složky. Nyní se přesuneme do webového rozhraní Mainsailu. Do prohlížeče zadejte IP adresu vašeho RPI, nebo síťový název (voron.local, mainsailos.local atd.).
 
 V menu Configuration (tam kde máme mainsail.cfg, moonraker.cfg a další soubory s nastavením) bychom měli vidět soubor firmware.bin. Ten si stáhneme, zkopírujeme na SD kartu a vložíme do desky. Po restartu desky by měl být firmware nainstalovaný. Pro kontrolu můžeme SD kartu vyjmout z desky, vložit do počítače a mělibychom tam vidět například `firmware.cur`. To znamená že se nám FW úspěšně nainstaloval.
 
 # printer.cfg a nastavení naší tiskárny
-Poslední věc pro propojení Klipperu a tiskárny je vytvoření `printer.cfg` a doplnení výše uvedene cesty. Pak by nám vše mělo začít komunikovat. Ale postupně. Výše jsem psal o seznamu configů pro různé desky. Najdeme si config pro naši desku, stáhneme jej a nahrajeme do mainsailu. Případě si tento soubor vytvoříme ručně, a obsah ukázkového souboru do něj zkopírujeme.
+Poslední věc pro propojení Klipperu a tiskárny je vytvoření `printer.cfg` a doplnení výše uvedené cesty. Pak by nám vše mělo začít komunikovat. Ale postupně. Výše jsem psal o seznamu configů pro různé desky. Najdeme si config pro naši desku, stáhneme jej a nahrajeme do mainsailu. Případě si tento soubor vytvoříme ručně, a obsah ukázkového souboru do něj zkopírujeme.
 
-Otevřeme si `printer.cfg` a najdeme v něm `[mcu]`. Sem doplníme správnou cestu k desce, kterou jsme zjistili pomocí výše uvedenené příkazu v terminálu (nebo putty). Výsledek by měl vypadat nějak takto:
+Otevřeme si `printer.cfg` a najdeme v něm `[mcu]`. Sem doplníme správnou cestu k desce, kterou jsme zjistili pomocí výše uvedeneného příkazu v terminálu (nebo putty). Výsledek by měl vypadat nějak takto:
 ```
 [mcu]
 serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
