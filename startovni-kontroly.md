@@ -66,7 +66,7 @@ U CoreXY je někdy náročné nastavit směr pohybu motorů. Voron má krásně 
 https://docs.vorondesign.com/build/startup/#motor-configuration-guides
 
 ## PID kalibrace
-Před prvním tiskem silně doporučuji udělat PID kalibraci. Je to jednorázová akce na pár minut, a máte jistotu že se hotend i podložka budou chovat tak jak mají. PID kalibraci doporučuji udělat i pokud měníte hotend, dáváte jinou trysku, silikonovnou ponožku nebo třeba jiný termistor.
+Před prvním tiskem silně doporučuji udělat PID kalibraci. Je to jednorázová akce na pár minut, a máte jistotu že se hotend i podložka budou chovat tak jak mají. PID kalibraci doporučuji udělat i pokud měníte hotend, dáváte jinou trysku, silikonovou ponožku nebo třeba jiný termistor.
 
 Kalibrace je jednoduchá. Do konzole zadejte příkaz:
 ```
@@ -91,9 +91,9 @@ Před samotnou kalibrací musíte mít tiskárnu zahoumovanou `G28` a vymažte p
 
 Znovu proveďte `G28`
 
-Najeďte do bodu, kde bute měřit vzdálenost trysky od podložky
+Najeďte do bodu, kde budete měřit vzdálenost trysky od podložky
 
-Spusťte v konzoli příkaz `Z_ENDSTOP_CALIBRATE`. Jak Mainsail, tak Fluidd mají na kalibraci grafickou nádstavbu, takže následné úpravy vzdálenosti trysky od podložky jsou už jednoduché. Pomocí klasické papírové metody (papír pod tryskou musí jemně drhnout) a snižováním nevo zvyšováním výšky Z najděte správnou polohu. Následně klikněte na Accept a pomocí tlačítka SAVE CONFIG naměřené hodnoty uložte a restartujte klipper.
+Spusťte v konzoli příkaz `Z_ENDSTOP_CALIBRATE`. Jak Mainsail, tak Fluidd mají na kalibraci grafickou nádstavbu, takže následné úpravy vzdálenosti trysky od podložky jsou už jednoduché. Pomocí klasické papírové metody (papír pod tryskou musí jemně drhnout) a snižováním nebo zvyšováním výšky Z najděte správnou polohu. Následně klikněte na Accept a pomocí tlačítka SAVE CONFIG naměřené hodnoty uložte a restartujte klipper.
 
-Nezpomeňte si v configu u `[bed_mesh]` nastavit `relative_reference_index`. Relative reference index nastavte co nejblíže k bodu, kde jste měřili Z offset.
+Nezapomeňte si v configu u `[bed_mesh]` nastavit `relative_reference_index`. Relative reference index nastavte co nejblíže k bodu, kde jste měřili Z offset.
 Více info jak nastavit relative reference index najdete v záznamu mého streamu: https://youtu.be/Vi1-iHbne04
