@@ -107,7 +107,7 @@ gcode:
     G90
     # Přesuneme toolhead doprava a dopředu
     # Zde záleží, kam chcete umístit toolhead/tiskovou hlavu po skončení tisku. Není dobré ji nechat viset na tiskem
-    # nastavte podle vaší tiskárny a podle toho kde chcete tiskouvou hlavu mít.
+    # nastavte podle vaší tiskárny a podle toho kde chcete tiskovou hlavu mít.
     # v tomto případě jde tisková hlava dopředu (Y20) a doprava (X300)
     G1 Y20
     G1 X300
