@@ -13,21 +13,21 @@ Jak ověřit funkčnost a správné zapojení endstopů? Nejjednodušší způso
 
 ## Nahřívání, termistory, větráky
 Jedná se o tři odlišné, avšak vzájemně propojené věci, které proto otestujeme současně.
-V Mainsalu v dashboardu vidíte na pravé straně grafy teplot. Jsou tam zobrazeny jak teploty hotendu v čase, tak teploty podložky. Těch teplot tam můžete vidtě více (například teplota Raspberry, či teplota desky), ale pro fukčnost jsou klíčové teploty hotendu a desky.
+V Mainsailu v dashboardu vidíte na pravé straně grafy teplot. Jsou tam v čase zobrazeny jak teploty hotendu, tak teploty podložky. Těch teplot tam můžete vidtě více (například teplota Raspberry, či teplota desky), ale pro fukčnost jsou klíčové teploty hotendu a desky.
 
 ![Mainsail a nastavení teplot](/images/mainsail_temp_graph.png)
 
 Pokud by nefungovaly termistory, klipper by vyhodil chybu už dříve, takže v tomto kroku víte, že termistor je zapojený a ukazuje nějaké teploty. Měli byste tam vidět přibližně pokojové teploty.
 
 - Nyní nad grafem teplot do okýkna zadejte teplotu hotend 50 stupňů a zmáčkněte enter nebo klikněte někam bokem. 
-    - Na hotendu by se vám měl začít točit větrák pro ofuk hotendu
+    - Na hotendu by se vám měl začít točit větrák pro ofuk hotendu. Na hlavě Stealthburner i Afterburner je to ten spodní.
     - Měla by vám začít stoupat teplota (sledujte ji v grafu nebo vedle nastavení teplot)
     - Pokud se vám roztočil větrák pro ofuk tisku, místo větráku u hotendu, máte přehozené kabely. Zkontrolujte zapojení.
     - U termistoru byste měli mít nastavený správný typ termistoru, jinak vám při vyšších teplotách může vznikat velká odchylka od reálných teplot
 
 - Stejný postup zopakujeme pro podložku. Zde není žádný ventilátor, takže sledujeme jen teploty
 - Pokud se nám teploty nemění, zkontrolujeme že máme vše správně zapojeno ve správných terminálech či konektorech na desce, a že máme správně v `printer.cfg` zadány správné piny.
-- Posledním krokem této kontroly je spuštění ventilátoru pro ofuk tisku. V dashboardu je slider pro ovládání ventilátoru, otestujeme že funguje jak na 100 %, tak i při nižších rychlostech okolo 20 - 30 %.
+- Posledním krokem této kontroly je spuštění ventilátoru pro ofuk tisku. V dashboardu je slider pro ovládání ventilátoru, otestujeme že funguje jak na 100 %, tak i při nižších rychlostech okolo 20 - 30 %. Tentokrát se jedná o ten horní ventilátor.
 
 ## Motory
 Zkontrolujte, že po zapnutí tiskárny můžete hýbat se všemi motory volně. Pokud by s některým z motorů hýbat nešlo (je aktivní), pak je zřejmě obrácena logika pro `enable_pin` nastavení. Stejně jako u endstopů, přidejte nebo odeberte vykřičník. Například `enable_pin: !ar38` přepište na `enable_pin: ar38`. Restartuje firmware a zkuste, jestli se dá s motem hýbat.
