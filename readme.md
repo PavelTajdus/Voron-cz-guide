@@ -23,8 +23,12 @@ Image ke stažení a instalaci přes [Raspberry Pi Imager](https://www.raspberry
 ### MainsailOS
 https://github.com/mainsail-crew/MainsailOS/releases/
 
+[Dokumentace](https://docs.mainsail.xyz)
+
 ### FluiddPI
 https://github.com/fluidd-core/FluiddPI/releases
+
+[Dokumentace](https://docs.fluidd.xyz)
 
 ## Voron 2.4
 Všechny informace na jednom místě (další linky jsou právě z tohoto repozitáře)
@@ -43,6 +47,8 @@ https://github.com/VoronDesign/Voron-2/tree/Voron2.4/firmware/klipper_configurat
 
 ### STL soubory
 https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs
+
+https://github.com/VoronDesign/Voron-Stealthburner/tree/main/STLs
 
 ### Stažení všeho v ZIP souboru
 https://github.com/VoronDesign/Voron-2/archive/refs/heads/Voron2.4.zip

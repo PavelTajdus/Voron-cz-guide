@@ -128,7 +128,7 @@ dfu-util -R -a 0 -s 0x08000000:leave -D out/klipper.bin
 ```
 
 ## Instalace CANBOOT
-Pokračuj dále v instalaci podle následujícího postup. Originál tohoto návodu najdeš na [tomto odkaze](https://maz0r.github.io/klipper_canbus/toolhead/sb_can_v1.1.html), za což děkuji jeho autorovi.
+Pokračuj dále v instalaci podle následujícího postupu. Originál tohoto návodu najdeš na [tomto odkaze](https://maz0r.github.io/klipper_canbus/toolhead/sb_can_v1.1.html), za což děkuji jeho autorovi.
 
 ### Generování souboru firmware CANboot 
 Klonuj repozitář CanBoot do svého Raspberry Pi:
