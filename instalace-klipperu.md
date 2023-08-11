@@ -68,7 +68,7 @@ V menu Configuration (tam kde máme mainsail.cfg, moonraker.cfg a další soubor
 # printer.cfg a nastavení naší tiskárny
 Poslední věc pro propojení Klipperu a tiskárny je vytvoření `printer.cfg` a doplnení výše uvedené cesty. Pak by nám vše mělo začít komunikovat. Ale postupně. Výše jsem psal o seznamu configů pro různé desky. Najdeme si config pro naši desku, stáhneme jej a nahrajeme do mainsailu. Případě si tento soubor vytvoříme ručně, a obsah ukázkového souboru do něj zkopírujeme.
 
-Otevřeme si `printer.cfg` a najdeme v něm `[mcu]`. Sem doplníme správnou cestu k desce, kterou jsme zjistili pomocí výše uvedeneného příkazu v terminálu (nebo putty). Výsledek by měl vypadat nějak takto:
+Otevřeme si `printer.cfg` a najdeme v něm `[mcu]`. Sem doplníme správnou cestu k desce, kterou jsme zjistili pomocí výše uvedeného příkazu v terminálu (nebo putty). Výsledek by měl vypadat nějak takto:
 ```
 [mcu]
 serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
