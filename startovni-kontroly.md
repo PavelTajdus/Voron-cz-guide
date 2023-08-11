@@ -93,7 +93,7 @@ Znovu proveďte `G28`
 
 Najeďte do bodu, kde budete měřit vzdálenost trysky od podložky
 
-Spusťte v konzoli příkaz `Z_ENDSTOP_CALIBRATE`. Jak Mainsail, tak Fluidd mají na kalibraci grafickou nádstavbu, takže následné úpravy vzdálenosti trysky od podložky jsou už jednoduché. Pomocí klasické papírové metody (papír pod tryskou musí jemně drhnout) a snižováním nebo zvyšováním výšky Z najděte správnou polohu. Následně klikněte na Accept a pomocí tlačítka SAVE CONFIG naměřené hodnoty uložte a restartujte klipper.
+Spusťte v konzoli příkaz `Z_ENDSTOP_CALIBRATE`. Jak Mainsail, tak Fluidd mají na kalibraci grafickou nástavbu, takže následné úpravy vzdálenosti trysky od podložky jsou už jednoduché. Pomocí klasické papírové metody (papír pod tryskou musí jemně drhnout) a snižováním nebo zvyšováním výšky Z najděte správnou polohu. Následně klikněte na Accept a pomocí tlačítka SAVE CONFIG naměřené hodnoty uložte a restartujte klipper.
 
 Nezapomeňte si v configu u `[bed_mesh]` nastavit `relative_reference_index`. Relative reference index nastavte co nejblíže k bodu, kde jste měřili Z offset.
 Více info jak nastavit relative reference index najdete v záznamu mého streamu: https://youtu.be/Vi1-iHbne04
