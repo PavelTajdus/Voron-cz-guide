@@ -9,6 +9,14 @@ M140 S0
 PRINT_START BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]
 M221 S{if layer_height<0.075}100{else}95{endif}
 ```
+
+Pro OrcaSlicer vložte:
+```
+M190 S0
+M109 S0
+PRINT_START EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]
+```
+
 #### Co a proč tam vlastně vkládám?
 Dobrá otázka, nevkládejte do tiskárny slepě kód, kterému nerozumíte. Startovní gcode si rozebereme postupně:
 - `M104 S0` - nastaví nulovou hodnotu teploty pro hotend
