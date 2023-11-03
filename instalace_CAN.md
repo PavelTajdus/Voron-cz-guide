@@ -114,7 +114,7 @@ make menuconfig
 ```
 Ujisti se, že tvoje konfigurace odpovídá obrázku FYSTEC SB CAN TH Menu config
 
-![image](https://github.com/PavelTajdus/Voron-cz-guide/blob/main/images/SB_CAN_ToolHEAD_menuconfig.png?raw=true)
+![image](/images/SB_CAN_ToolHEAD_menuconfig.png?raw=true)
 
 Ukonči použitím ESC nebo Q, potvrď ano (Y).
 
@@ -142,7 +142,7 @@ make menuconfig
 
 Nakonfiguruj svůj makefile pro FYSETC SB CAN TH s STM32F072
 
-![image](https://github.com/PavelTajdus/Voron-cz-guide/assets/6259149/ed39a616-ea18-4d80-95d2-ed665528cfea)
+![image](/images/sb_can_v1.1_canboot_make.png)
   
 Ukonči použitím ESC nebo Q, potvrď ano (Y).
 
