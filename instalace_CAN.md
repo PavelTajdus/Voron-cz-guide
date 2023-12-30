@@ -4,7 +4,7 @@
 
 ## Pozor na verzi desky! 
 Tento návod platí pro desky ve verzi 1.1.  
-*Pro aktuální verze 1.3 postupujte podle [návodu výrobce](https://wiki.fysetc.com/SB%20CAN%20ToolHead/?sscid=c1k7_12jhvq&).*
+**Pro aktuální verze 1.3 postupujte podle [návodu výrobce](https://wiki.fysetc.com/SB%20CAN%20ToolHead/?sscid=c1k7_12jhvq&).**
 
 ## Instalace potřebných balíčků
 Do příkazové řádky zadej následující příkazy:
