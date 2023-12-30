@@ -2,6 +2,8 @@
 - https://www.hotend.cz/upgrade-kity/587-voron-stealthburner-can-pcb-v11-kit-kabelaz.html
 - https://www.hotend.cz/zakladni-desky/588-ucan-v10-usb-to-can.html
 
+# Pozor! Tento návod platí pro Desky ve verzi 1.1. Pro aktuální verze 1.3 postupujte podle [návodu výrobce](https://wiki.fysetc.com/SB%20CAN%20ToolHead/?sscid=c1k7_12jhvq&)
+
 ## Instalace potřebných balíčků
 Do příkazové řádky zadej následující příkazy:
 ```bash
