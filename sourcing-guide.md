@@ -10,6 +10,12 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě nebo upgrade tiskáre
 
 [BIGTREETECH TMC2209 UART - Hotend.cz](https://www.hotend.cz/drivery/412-bigtreetech-tmc2209-driver-v13-uart.html)
 
+### Hotendy
+
+[TRIANGLELAB CHC HOTEND - Hotend.cz](https://www.hotend.cz/kompletni-hotendy/619-trianglelab-chc-hotend-keramicke-topne-teleso.html)
+
+[PHAETUS VORON DRAGON HF - Hotend.cz](https://www.hotend.cz/kompletni-hotendy/225-phaetus-voron-dragon-hotend-hf-vysoky-prutok-6973090161316.html)
+
 ### Ventilátory
 
 #### 4020 Blower
@@ -59,6 +65,8 @@ Strukturovaný seznam zdrojů pro nákup dílů ke stavbě nebo upgrade tiskáre
 [Shurter gsw6762si - gsmcentrum.cz](https://www.gsmcentrum.cz/napajeci-euro-konektor-schurter-gsw6762si)
 
 ### Kamery
+
+[HIKVISION WebCam DS-U12 2MP - softcom.cz](https://www.softcom.cz/eshop/hikvision-webcam-ds-u12-2mp-1920x1080-30fps-usb-2-0_d258935.html)
 
 [Waveshare IMX179 - rpishop.cz](https://rpishop.cz/waveshare/1046-waveshare-imx179-8mpx-usb-kamera-a.html)
 
@@ -133,6 +141,10 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 ### Neopixel LED (StealthBurner)
 
+[HOTEND.CZ](https://www.hotend.cz/voron-kity/814-led-osvetleni-pro-voron-stealthburner-s-kabelazi.html)
+
+[HOTEND.CZ](https://www.hotend.cz/voron-kity/887-rainbow-barf-sada-led-pro-voron-stealthburner.html)
+
 [Aliexpress.com](https://www.aliexpress.com/item/32542223934.html)
 
 [Aliexpress.com](https://www.aliexpress.com/item/4000239230774.html)
@@ -142,6 +154,8 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 ### SD/eMMC karty pro RPI
 
 [eMMC ve tvaru microSD karty - rpishop.cz](https://rpishop.cz/emmc-micro-sd/3426-uugear-raspikey-32gb-emmc-pamet-pro-raspberry-pi.html)
+
+[Samsung MicroSDXC 128GB PRO Plus - alza.cz](https://www.alza.cz/samsung-microsdxc-128gb-pro-plus-sd-adapter-2023-d7679124.htm)
 
 ## Hardware
 
@@ -155,6 +169,10 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 [Threaded heatset insert tool - Hotend.cz](https://www.hotend.cz/nastroje/553-hrot-pro-instalaci-zavitovych-vlozek-m3-heat-insert-tip-tool.html)
 
+[Krimpovací kleště - Hotend.cz](https://www.hotend.cz/nastroje/632-iwiss-iws-3220m-racnove-krimpovaci-kleste.html)
+
+[Odizolovací kleště - Hotend.cz](https://www.hotend.cz/nastroje/633-iwiss-fsa-0626b-odizolovaci-kleste-s-rezackou-kabelu.html)
+
 [Miniware ES15 šroubovák - Aliexpress.com](https://www.aliexpress.com/item/1005001872201642.html)
 
 [Wera bit imbus 2.5](https://www.boukal.cz/wera-059604-bit-inbus-2-5-mm-840-4-z-hex-plus-sroubovaci-bit-1-4-hex-50-mm-pro-srouby-s-vnitrnim-sestihranem/76505/produkt)
@@ -165,7 +183,7 @@ Konektor na krokovém motoru, který má odpojitelný kabel.
 
 ### Profily
 
-- [ ] Doplnit
+[Profil ALTRAX 2020 T - hobby-store.pl](https://hobby-store.pl/en/aluminium-profiles/aluminium-profile-2020-type-t-slot)
 
 ### Spojovací materiál
 
@@ -221,6 +239,8 @@ Voron default: M3x5x4
 
 ### Zakrytování tiskárny
 
+[Desky DIBOND 3mm - dencop.cz](https://eshop.dencop.cz/acp-bond-al0-21-3x1500x3050cern-lesk9005-cerna9005)
+
 [Kartonplast 3mm - obalove-materialy.cz](https://www.obalove-materialy.cz/kartonplastovy-proklad-3-mm-80-120-cm-transparentni-600-g)
 
 #### Magnety
@@ -268,5 +288,8 @@ Voron default: M3x5x4
 #### Filtrace
 
 [Aktivní uhlí - Fichema.cz](https://fichema.cz/aktivni-uhli/1877-aktivni-uhli-1-kg-na-vzduch-8592861407040.html)
-
 [Aktivní uhlí - Higarden.cz](https://www.higarden.cz/aktivni-uhli/aktivni-uhli-ctc-70-baleni-1kg/)
+
+### Tištené díly
+
+[Tištěné díly - Hotend.cz](https://www.hotend.cz/tistene-dily-2)
