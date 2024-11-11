@@ -34,7 +34,7 @@ Zkontrolujte, že po zapnutí tiskárny můžete hýbat se všemi motory volně.
 
 ### Stepper Buzz
 Nyní se pustíme do kontroly motorů. Klipper má jednoduchý příkaz, kterým rozpohybuje specifikovaný motor.
-Do konzole zadejte příkaz `STEPPER_BUZZ STEPPER=stepper_x` a sledujte, co dělá tiskárna. Tento příkaz posune motor o +10mm a zpět. A 10x opakuje.
+Do konzole zadejte příkaz `STEPPER_BUZZ STEPPER=stepper_x` a sledujte, co dělá tiskárna. Tento příkaz posune motor o +1mm a zpět. A 10x opakuje.
 Tímto způsobem otestujte všechny motory. 
 
 Například názvy motorů u Voron 2.4 jsou takto:
