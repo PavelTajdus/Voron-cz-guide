@@ -11,7 +11,9 @@ Nejbezpečnější způsob aktualizace je provést čistou instalaci pomocí ná
 4. Vložte SD kartu do Raspberry Pi a spusťte systém
 
 ## Alternativní postup: Ruční aktualizace
-Pokud chcete aktualizovat systém bez přeinstalace, postupujte podle následujících kroků. **Doporučujeme zálohovat všechna důležitá data před zahájením procesu.**
+Pokud chcete aktualizovat systém bez přeinstalace, postupujte podle následujících kroků. 
+
+**Doporučujeme zálohovat všechna důležitá data před zahájením procesu.**
 
 ### 1. Příprava systému
 ```bash
