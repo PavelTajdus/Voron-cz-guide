@@ -44,3 +44,4 @@ sudo reboot
 ## Důležitá upozornění
 - Celý proces může trvat přibližně 30 minut
 - Během aktualizace budete muset potvrdit několik výzev k nahrazení konfiguračních souborů
+- Po dokončení Update zřejmě přestane fungovat klipper, a je nutné provést odinstalaci a novou instalaci (configy zůstanou zachovány, přesto doporučujeme vše zálohovat).
