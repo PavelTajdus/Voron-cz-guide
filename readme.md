@@ -1,6 +1,8 @@
 # Soubor informací ke stavbě tiskáren Voron
 Soubor všemožných informací ke stavbě tiskáren voron v češtině a na jednom místě. Jednotlivé věci rozdělené do menších článků, pro snadnější orientaci. Další věci budou postupně přibývat.
 
+Kompletní návod, který vás provede celou stavbou, najdete na mém blogu: **[Návod pro stavbu tiskárny Voron](https://blog.hotend.cz/navod-pro-stavbu-tiskarny-voron/)**. Níže pak najdete detailnější informace k jednotlivým krokům.
+
 ## Rozcestník
 [Kde co koupit, pokud potřebujete jednotlivé díly](sourcing-guide.md)   
 Chybí vám nějaké položky při stavbě? Chybí něco v kitu? Potřebujete nějaké Gucci věcičky? :-)
@@ -27,11 +29,6 @@ Image ke stažení a instalaci přes [Raspberry Pi Imager](https://www.raspberry
 https://github.com/mainsail-crew/MainsailOS/releases/
 
 [Dokumentace](https://docs.mainsail.xyz)
-
-### FluiddPI
-https://github.com/fluidd-core/FluiddPI/releases
-
-[Dokumentace](https://docs.fluidd.xyz)
 
 ## Voron 2.4
 Všechny informace na jednom místě (další linky jsou právě z tohoto repozitáře)
