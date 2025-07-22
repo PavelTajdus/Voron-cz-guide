@@ -14,6 +14,9 @@ Sestaveno a podrátováno? Je čas to všechno zkontrolovat.
 [Startovní gcode](start_macro.md)  
 Co a kde doplnit, aby nám slicer kamarádil s naší tiskárnou.
 
+[Kalibrace extruderu (Rotation Distance)](kalibrace-extruderu.md)  
+Jednoduchý návod, jak na to.
+
 # Oficiální zdroje
 Protože jsou jednotlivé věci relativně dost rozházené, sepsal jsem pár základních linků, kde co stáhnout nebo kde co sehnat.
 
